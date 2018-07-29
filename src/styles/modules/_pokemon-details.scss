@@ -1,0 +1,86 @@
+.box-modal-pokemon-detail {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+  .box-modal-content {
+    background-color: $gray;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    min-height: 310px;
+    height: auto;
+    border-radius: 7px;
+  }
+
+  /* The Close Button */
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  .close:hover, .close:active {
+    color: $pallet-4;
+  }
+
+  .pokemon-detail {
+    width: 100%;
+    
+    .pokemon-card {
+      display: block;
+    }
+
+    .pokemon-art {
+      display: none;
+    }
+
+    .pokemon-description {
+      h2 {
+        margin-top: 20px;
+      }
+    }
+
+    .attributes {
+      background: $gray2;
+      border-radius: 7px;
+      padding: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pokemon-detail {
+    .pokemon-card {
+      float: none !important;
+      width: 100%;
+      text-align: center;
+
+      picture {
+        float: none;
+      }
+    }
+    .pokemon-description {
+      float: none;
+      width: 100%;
+    }
+  }
+  .box-modal-pokemon-detail .box-modal-content {
+    min-height: 460px;
+  }
+}
+
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}

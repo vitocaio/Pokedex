@@ -1,0 +1,36 @@
+
+header {
+  background: $pallet-5;
+  @include size(100%, 50px);
+  overflow: hidden;
+  border-bottom: solid 1px $dark-gray;
+
+  ul.list {
+    height: 100%;
+
+    li {
+      padding: 1.4% 2%;
+      float: left;
+      height: 100%;
+      cursor: pointer;
+      @include transition(all, .5s, ease);
+      color: $white;
+
+      .logo {
+        position: relative;
+        top: -17px;
+        height: 50px;
+      }
+
+      &:hover {
+        background: $pallet-3;
+        color: $white;
+      }
+
+      &:hover {
+        @include border(0, 5px, 0px, 0, solid, $pallet-2);
+      }
+    }
+
+  }
+}

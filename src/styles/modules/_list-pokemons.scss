@@ -1,0 +1,52 @@
+
+.list-pokemons {
+  width: 80%;
+  position: relative;
+  min-height: 500px;
+
+  .search {
+    margin: 3%;
+    margin-bottom: 0px;
+  }
+
+  ul.list {
+    @extend %no-bullets;
+
+    li {
+      @include border(1px, 1px, 1px, 1px, solid, $gray2);
+      margin: 1.4%;
+      background: $dark-gray;
+      min-height: 250px;
+      height: auto;
+      border-radius: 7px;
+      border: solid 1px $pallet-6;
+      padding: 8px;
+
+      .list-item-details {
+        padding: 0px 5px;
+      }
+
+      p {
+        font-size: 26px;
+        text-transform: capitalize;
+        color: $gray3
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    ul.list {
+      li {
+        min-width: 300px;
+        width: 100%;
+      }
+    }
+    .arrows {
+      margin-top: 20px;
+    }
+
+    .search {
+      width: 96%;
+    }
+  }
+}

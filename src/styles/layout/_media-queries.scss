@@ -1,0 +1,25 @@
+@media (max-width: 680px) {
+  .fx-calc {
+    flex: 0 2 calc(30% - 1em);
+  }
+
+  .VIEW {
+    article {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 8%;
+    }
+
+    article:last-child {
+      margin: 2%;
+      width: 95%;
+    }
+  }
+}
+
+
+@media (max-width: 990px) {
+  .fx-calc {
+    flex: 0 2 calc(30% - 1em);
+  }
+}

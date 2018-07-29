@@ -1,0 +1,108 @@
+@import
+    "layout/flexbox",
+    "layout/media-queries"
+    ;
+
+.width-20 {
+  width: 20%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-top10 {
+  margin-top: 10px;
+}
+
+.m-top20 {
+  margin-top: 20px;
+}
+
+.m-left10 {
+  margin-left: 10px;
+}
+
+.m-left20 {
+  margin-left: 20px;
+}
+
+.m-right10 {
+  margin-right: 10px;
+}
+
+.m-right20 {
+  margin-right: 20px;
+}
+
+.m-right25 {
+  margin-right: 25px;
+}
+
+.m-bottom5 {
+  margin-bottom: 5px;
+}
+
+.m-bottom10 {
+  margin-bottom: 10px;
+}
+
+.m-bottom20 {
+  margin-bottom: 20px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.padding30 {
+  padding: 30px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.layout-center {
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+%width-100 {
+  width: 100%;
+}
+
+%center-v {
+  position: relative;
+  top: 50%;
+  @include translateY(-50%);
+}
+
+%center-h {
+  position: relative;
+  left: 50%;
+  @include translateX(-50%);
+}
+
+%clearfix {
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+  &::after {
+    clear: both;
+  }
+}
+
+%no-bullets {
+  list-style: none;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+}

@@ -1,0 +1,152 @@
+@import "normalize";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $pallet-5;
+  font-family: $font1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  color: $white
+}
+
+.relative {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-color-white {
+  color: $white;
+}
+
+.text-color-blue {
+  color: $blue;
+}
+
+.text-color-red-1 {
+  color: $red1;
+}
+
+.text-color-gray-1 {
+  color: $gray;
+}
+
+.text-color-gray-2 {
+  color: $gray2;
+}
+
+.text-color-pallet-1 {
+  color: $pallet-1;
+}
+
+.text-color-pallet-2 {
+  color: $pallet-2;
+}
+
+.text-color-pallet-3 {
+  color: $pallet-3;
+}
+
+.text-color-pallet-4 {
+  color: $pallet-4;
+}
+
+.text-color-pallet-5 {
+  color: $dark-gray;
+}
+
+.font-pokemon-hollow {
+  font-family: $font3;
+}
+
+.font-pokemon-solid {
+  font-family: $font4;
+}
+
+.font-roboto-light {
+  font-family: $font5;
+}
+
+.font-roboto-strong {
+  font-family: $font5;
+  font-weight: 900;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+ul.list {
+  @extend %no-bullets;
+}
+
+.input-text {
+  margin: 0;
+  padding: 1%;
+  @include border-radius(0px, 5px, 5px, 0px);
+  @include border(1px, 1px, 1px, 1px, solid, $gray2);
+  box-shadow: none;
+  height: 20px;
+  width: 98%;
+  position: relative;
+  z-index: 5;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 5px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px;
+}
+
+li {
+  color: $gray
+}
+
+p {
+  color: $gray
+}

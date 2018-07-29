@@ -1,0 +1,60 @@
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin translateY($Y) {
+  -webkit-transform: translateY($Y);
+  -moz-transform: translateY($Y);
+  -ms-transform: translateY($Y);
+  -o-transform: translateY($Y);
+  transform: translateY($Y);
+}
+
+@mixin translateX($X) {
+  -webkit-transform: translateX($X);
+  -moz-transform: translateX($X);
+  -ms-transform: translateX($X);
+  -o-transform: translateX($X);
+  transform: translateX($X);
+}
+
+@mixin border-radius($topLeft, $topRight, $bottomLeft, $bottomRight) {
+  border-top-left-radius: $topLeft;
+  border-top-right-radius: $topRight;
+  border-bottom-left-radius: $bottomLeft;
+  border-bottom-right-radius: $bottomRight;
+}
+
+@mixin border($top, $left, $right, $bottom, $style, $color) {
+  border-top: $top;
+  border-left: $left;
+  border-right: $right;
+  border-bottom: $bottom;
+  border-top: $top;
+  border-style: $style;
+  border-color: $color;
+}
+
+@mixin outline($top, $left, $right, $bottom, $style, $color) {
+  outline-top: $top;
+  outline-left: $left;
+  outline-right: $right;
+  outline-bottom: $bottom;
+  outline-top: $top;
+  outline-style: $style;
+  outline-color: $color;
+}
+
+@mixin font-face($name, $url) {
+  font-family: $name;
+  src: url($url) format("truetype");
+}
+
+@mixin transition($prop, $time, $animation) {
+  -webkit-transition: $prop $time $animation;
+  -moz-transition: $prop $time $animation;
+  -ms-transition: $prop $time $animation;
+  -o-transition: $prop $time $animation;
+  transition: $prop $time $animation;
+}

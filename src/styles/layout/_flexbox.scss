@@ -1,0 +1,33 @@
+.fx {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.fx-just-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.fx-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.fx-just-baseline {
+  justify-content: baseline;
+
+}
+
+.fx-box-sizing-border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fx-calc {
+  flex: 0 1 calc(21.5% - 1em);
+}
+
+.fx-d-column {
+  flex-direction: column;
+}

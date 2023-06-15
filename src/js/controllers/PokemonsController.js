@@ -121,7 +121,7 @@ module.exports = () => {
   const getTotalPokemons = () => {
     PokemonsService.getTotalPokemons().then((total) => {
       let totalPokemons = total
-      console.log(totalPokemons.count.toString())
+      return totalPokemons.count.toString();
     })
   }
 

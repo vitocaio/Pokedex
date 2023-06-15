@@ -6,10 +6,10 @@ export const template = `
       </li>
       <li route="/about">About</li>
       <li>
-        <a href="https://github.com/vitocaio/my-pokedex" target="_black">Github</a>
+        <a href="https://github.com/vitocaio/Pokedex" target="_black">Github</a>
       </li>
     </ul>
-  </header>`
+  </header>`;
 
 export function render () {
   document.body.insertAdjacentHTML('afterbegin', template)

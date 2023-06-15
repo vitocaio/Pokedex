@@ -29,7 +29,7 @@ export function Home () {
           <h6 class="text-center heart animated infinite no-padding no-margin text-color-pallet-3">Pokemon não encontrado</h6>
         </section>
         <div class="loading">
-          <img class="pokeball-loading animated infinite" src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" alt="loading...">
+          <img class="pokeball-loading animated infinite" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Pokeball.PNG" alt="loading...">
         </div>
         <ul class="list fx fx-just-center fx-wrap fx-just-baseline fx-box-sizing-border-box pull-left"></ul>
       </div>
@@ -37,7 +37,7 @@ export function Home () {
     
     <div class="pokemon-details-container">
       <div class="loading">
-        <img class="pokeball-loading animated infinite" src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" alt="loading...">
+        <img class="pokeball-loading animated infinite" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Pokeball.PNG" alt="loading...">
       </div>
 
       <div class="box-modal-pokemon-detail pull-right m-right20">
@@ -52,7 +52,7 @@ export function Home () {
         </div>
       </div>
     </div>
-    `
+    `;
 }
 
 export function About () {

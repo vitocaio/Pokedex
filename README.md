@@ -80,7 +80,7 @@ Create a search to list a pokemon
 Quick install
 -------------
 
-The first thing you should do, is install the Node.js dependencies. To install Node.js dependencies you're going to use npm. In your application folder pokedex run this in the **command-line**:
+The first thing you should do, is install the Node.js `version v8.17.0` dependencies. To install Node.js dependencies you're going to use npm. In your application folder pokedex run this in the **command-line**:
 
 > $ npm install:
 
